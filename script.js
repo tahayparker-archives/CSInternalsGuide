@@ -1,12 +1,18 @@
-// jQuery smooth scrolling
 $(document).ready(function () {
-  $('a[href^="#"]').on('click', function (event) {
-    var target = $(this.getAttribute('href'));
-    if (target.length) {
-      event.preventDefault();
-      $('html, body').stop().animate({
-        scrollTop: target.offset().top
-      }, 800);
-    }
-  });
+    $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('active');
+        $(this).toggleClass('active');
+    });
 });
+
+$("[data-trigger]").on("click", function(){
+    var trigger_id =  $(this).attr('data-trigger');
+    $(trigger_id).toggleClass("show");
+    $('body').toggleClass("offcanvas-active");
+});
+
+// close button 
+$(".btn-close").click(function(e){
+    $(".navbar-collapse").removeClass("show");
+    $("body").removeClass("offcanvas-active");
+}); 
