@@ -1,13 +1,13 @@
 @import "{{ site.theme }}";
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import "@import 'https://fonts.googleapis.com/css?family=Comfortaa:400,700";
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   background: #121212;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-size: 1.1em;
   font-weight: 300;
   line-height: 1.7em;
@@ -15,7 +15,7 @@ p {
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-size: 2em;
   font-weight: 600;
   color: #008785;
@@ -23,13 +23,13 @@ h2 {
 }
 
 h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-size: 1em;
   color: #deffffff;
 }
 
 h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-size: 2em;
   font-weight: 600;
   color: #008785;
@@ -39,7 +39,7 @@ h4 {
 }
 
 ul {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-size: 1.1em;
   font-weight: 300;
   line-height: 1.7em;
@@ -151,7 +151,7 @@ footer {
   }
 
   h4 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Comfortaa", sans-serif;
     font-size: 1.5em;
     font-weight: 600;
     color: #008785;
