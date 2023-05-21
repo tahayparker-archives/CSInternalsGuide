@@ -83,7 +83,7 @@
         <h2>Project File</h2>
         <p>A printed, binded document.</p>
         <p>Contains your project written in pure Python with connectivity to MySQL.</p>
-        <br>
+        <div class="line"></div>
         <h2>The Project</h2>
         <p>This is the only project that you will have to do in your entire year.</p>
         <p>The project must be written in Python and must use MySQL connectivity.</p>
@@ -103,20 +103,20 @@
           <li>Management (Inventory Management, Employee Management, etc.)</li>
           <li>Billing Systems (Electricity Billing, etc.)</li>
         </ul>
-        <br>
+        <div class="line"></div>
         <h2>The File / Record</h2>
         <p>Your file should contain the following headers:</p>
         <ul>
-          <li>Cover Page</li>
-          <li>Certificate</li>
-          <li>Acknowledgement</li>
-          <li>Introduction</li>
-          <li>Synopsis</li>
-          <li>System Description</li>
-          <li>Program Source Code</li>
-          <li>Program Output</li>
-          <li>Conclusion</li>
-          <li>Bibliography</li>
+          <li><a href="#coverpage">Cover Page</a></li>
+          <li><a href="#certificate">Certificate</a></li>
+          <li><a href="#acknowledgement">Acknowledgement</a></li>
+          <li><a href="#intro">Introduction</a></li>
+          <li><a href="#synopsis">Synopsis</a></li>
+          <li><a href="#sysdesc">System Description</a></li>
+          <li><a href="#psc">Program Source Code</a></li>
+          <li><a href="#po">Program Output</a></li>
+          <li><a href="#conc">Conclusion</a></li>
+          <li><a href="#ref">Bibliography</a></li>
         </ul>
         <br>
         <p>These will be explained in detail in the following sections.</p>
@@ -125,8 +125,8 @@
         <p>Your file should have page numbers on all pages. There is no rule regarding the format, but the preferred placement of the page number is either bottom centered or in the bottom right corner.</p>
         <p>Leave a margin on the left for the binding. You may go with narrow borders, and then press custom borders and add 0.5 to 1 cm to the margin on the left.</p>
         <p>Each of the headers mentioned above should start on a new page, even if the rest of the page is empty. Headers should be on the top, center-aligned.</p>
-        <br>
-        <h2>Cover Page</h2>
+        <div class="line"></div>
+        <h2 id="coverpage">Cover Page</h2>
         <p><strong>This page must be provided by your teacher.</strong></p>
         <p>This is the first page of your record.</p>
         <p>Contains the title ("Project Record"), the academic year, the name of your project (three to four words max), and a place for your details.</p>
@@ -135,8 +135,8 @@
         <p>
           <strong>DO NOT PRINT THE DETAILS</strong>. These will be written by hand, using black/blue ink on or before the day of the practical exam.
         </p>
-        <br>
-        <h2>Certificate</h2>
+        <div class="line"></div>
+        <h2 id="certificate">Certificate</h2>
         <p><strong>This page must be provided by your teacher.</strong></p>
         <p>This is the second page of your record.</p>
         <p>This page must be numbered as well.</p>
@@ -147,19 +147,98 @@
         <p>
           <strong>DO NOT PRINT THE DETAILS</strong>. These will be written by hand, using black/blue ink on or before the day of the practical exam.
         </p>     
-        <br>
-        <h2>Acknowledgement</h2>
+        <div class="line"></div>
+        <h2 id="acknowledgement">Acknowledgement</h2>
         <p>Pretty straighforward, nothing to worry about.</p>
         <p>Write a page thanking your teacher, your parents, your friends, and anyone else who helped you.</p>
         <p>Or copy-paste, yknow. Or just use GPT. Pretty helpful. Should be about half a page long.</p>
         <p>Do not exceed one page. Seriously. No need to thank every single person.</p>
-        <br>
-        <h2>Introduction</h2>
+        <div class="line"></div>
+        <h2 id="intro">Introduction</h2>
         <p>Write a brief introduction about your project.</p>
         <p>This is more of marketing than technical talk.</p>
         <p>Write about your project, and what it does, without going into the technical details at all.</p>
         <p>You can even "create" a problem and then propose your project as a solution to the problem.</p>
         <p>Do not exceed one page. Shouldn't get too boring.</p>
+        <div class="line"></div>
+        <h2 id="synopsis">Synopsis</h2>
+        <p>This section will describe your project in more technical terms.</p>
+        <p>Write about the various functions of your project, going into the technical details of what each function does.</p>
+        <p>This can be one to two pages long.</p>
+        <div class="line"></div>
+        <h2 id="sysdesc">System Description</h2>
+        <h4>Python</h4>
+        <p>Include the following:</p>
+        <ul>
+          <li>File Name - Usually <code>project.py</code> or <code>your-project-name.py</code></li>
+          <li>Import statements - All the modules that you have imported.</li>
+          <li>Built-in functions - such as <code>print()</code>, <code>connect()</code>, <code>append()</code>, etc. Functions imported from modules go here. Include any and all functions.</li>
+          <li>User-defined functions - Any functions you have made yourself should be included here.</li>
+          <li>Comment: When adding functions, include any parameters you have included in the function header. Example: <code>connect(host, user, password, database)</code></li>
+          <li>Variables - Any and all variables you may have used. This includes variables such as <code>i</code> which is used in <code>for i in ...</code></li>
+        </ul>
+        <h4>MySQL</h4>
+        <p>Include the following:</p>
+        <ul>
+          <li>Database Name - Usually <code>your-project-name</code></li>
+          <li>Table 1 : <code>table-name</code></li>
+          <li>Output of <code>desc table-name</code></li>
+        </ul>
+        <p>Continue for all tables in the database.</p>
+        <div class="line"></div>
+        <h2 id="psc">Program Source Code</h2>
+        <p>If you don't know what this is, seriously, are you even a CS student?</p>
+        <p>This is the entire Python program that you have written.</p>
+        <p><strong>Code must be COPY-PASTED. NO SCREENSHOTS.</strong></p>
+        <p>Ensure that the program is properly indented.</p>
+        <p>It is recommended to use a monospace font, such as <code>Consolas</code> or any other font from the Internet.</p>
+        <p>Use <a href="https://fonts.google.com/">Google Fonts</a> to find monospaced fonts.</p>
+        <div class="line"></div>
+        <h2 id="po">Program Output</h2>
+        <p>The output of the program.</p>
+        <p>Include all possible runs of the program, by selecting the different options of the menu.</p>
+        <p>If you run the program multiple times to get outputs, it is recommended to write <code>Run (number)</code> to show that the program output is from different sessions.</p>
+        <p><strong>Output must be COPY-PASTED. NO SCREENSHOTS.</strong></p>
+        <p>If you have colors in your output, ensure that the same color is applied in the output.</p>
+        <p>It is recommended to use a monospace font, such as <code>Consolas</code> or any other font from the Internet.</p>
+        <div class="line"></div>
+        <h2 id="conc">Conclusion</h2>
+        <p>Write a brief conclusion about your project.</p>
+        <p>This is a mix of the introduction and the synopsis.</p>
+        <p>A page for the conclusion should suffice.</p>
+        <div class="line"></div>
+        <h2 id="ref">Bibliography / References</h2>
+        <p>Include all the sources you have used to make your project.</p>
+        <p>Include the names of the books you have used.</p>
+        <p>Two books which you can write are:</p>
+        <ul>
+          <li>Computer Science with Python Class XII by Preeti Arora</li>
+          <li>Computer Science with Python Class XI by Preeti Arora</li>
+        </ul>
+        <p>Include the links to the websites you have used.</p>
+        <p>You can always include Python and MySQL documentation in the "Sites Referred" section.</p>
+        <p>MySQL Documentation - https://dev.mysql.com/doc/refman/8.0/en/</p>
+        <p>Python Documentation - https://docs.python.org/3/</p>
+        <p>Some more sites you can include:</p>
+        <ul>
+          <li>https://www.w3schools.com/python/</li>
+          <li>https://www.w3schools.com/sql/</li>
+          <li>https://www.geeksforgeeks.org/python-programming-language/</li>
+          <li>https://www.geeksforgeeks.org/sql-tutorial/</li>
+          <li>https://stackoverflow.com</li>
+          <li>https://pypi.org/</li>
+          <li>https://github.com/</li>
+        </ul>
+        <div class="line"></div>
+        <h2>Tips</h2>
+        <p>Use <a href="https://code.visualstudio.com/#alt-downloads"><u>Visual Studio Code</u></a> to write your project.</p>
+        <p>It has syntax highlighting, themes, and auto-save functions among many others. Highly recommended.</p>
+        <br>
+        <p>Color your code. Use a light theme in Visual Studio Code and then copy paste the code into Word.</p>
+        <p>The theme and the syntax highlighting will be copied as well. Looks nice, makes for a good first impression. Also hides errors.</p>
+        <p>I personally used <a href="https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes"><u>Kary Pro Colors</u></a> after messing around a bit with the theme files to change a few colors.</p>
+        <br>
+        <p></p>
       </div>
     </div>
     <div class="footer">
