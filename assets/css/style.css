@@ -58,6 +58,10 @@ ul {
   cursor: url(cursor.png), none;
 }
 
+strong {
+  color:#30d9cb;
+}
+
 a,
 a:hover,
 a:focus {
