@@ -7,7 +7,7 @@ html {
 body {
   font-family: "Comfortaa", monospace;
   background: #0a0606;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 p {
@@ -16,7 +16,7 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
   color: #ded5f6;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 h2 {
@@ -25,7 +25,7 @@ h2 {
   font-size: 2em;
   color: #a01877;
   margin-bottom: 30px;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 h3 {
@@ -33,7 +33,7 @@ h3 {
   font-size: 1em;
   font-weight: 400;
   color: #caf1d1;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 h4 {
@@ -43,7 +43,7 @@ h4 {
   text-align: left;
   white-space: nowrap;
   margin-top: 10px;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 ul {
@@ -55,7 +55,7 @@ ul {
   white-space: nowrap;
   margin-top: 10px;
   overflow-wrap: break-word;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 a,
@@ -64,7 +64,7 @@ a:focus {
   color: inherit;
   text-decoration: none;
   transition: all 0.3s;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .navbar {
@@ -75,7 +75,7 @@ a:focus {
   margin-bottom: 40px;
   margin-left: -20px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .nav-item {
@@ -85,7 +85,7 @@ a:focus {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   list-style-type: none;
   font-size: 1.5em;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .line {
@@ -102,7 +102,7 @@ a:focus {
   perspective: 1500px;
   overflow-x: hidden;
   overflow-y: hidden;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 #content {
@@ -114,7 +114,7 @@ a:focus {
   min-height: calc(100vh - 30px);
   overflow-x: hidden;
   overflow-y: hidden;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 footer {
@@ -122,29 +122,29 @@ footer {
   width: 100%;
   left: 0;
   height: 20px;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .footer-bottom center {
   padding: 5px;
   font-size: 0.9375rem;
   background: #850569;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .footer-bottom center span {
   color: #f9fecd;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .footer-bottom center a {
   text-decoration: none;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .footer-bottom center a:hover {
   text-decoration: underline;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .offcanvas-header {
@@ -194,16 +194,16 @@ footer {
 
   .navbar-nav .nav-link {
     color: #008785;
-    cursor: url(assets/cursor.png), none;
+    cursor: url(cursor.png), none;
   }
   .navbar-nav .nav-link:hover {
     color: #008785;
-    cursor: url(assets/cursor.png), none;
+    cursor: url(cursor.png), none;
   }
 
   .footer {
     height: auto;
-    cursor: url(assets/cursor.png), none;
+    cursor: url(cursor.png), none;
   }
 }
 
@@ -212,27 +212,27 @@ banner {
   width: 100%;
   left: 0;
   height: 30px;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .banner-bottom center {
   padding: 5px;
   font-size: 0.9375rem;
   background: #a4190a;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .banner-bottom center span {
   color: #f9fecd;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .banner-bottom center a {
   text-decoration: none;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .banner-bottom center a:hover {
   text-decoration: underline;
-  cursor: url(assets/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
