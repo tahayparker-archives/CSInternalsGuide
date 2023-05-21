@@ -1,6 +1,10 @@
 @import "{{ site.theme }}";
 @import "@import 'https://fonts.googleapis.com/css?family=Comfortaa:400,700";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Comfortaa", sans-serif;
   background: #121212;
