@@ -4,12 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS Internals Guide</title>
+    <!-- Google Fonts CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/site.webmanifest">
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
@@ -23,6 +32,17 @@
     <script src="script.js"></script>
   </head>
   <body>
+    <div class="banner">
+      <footer>
+        <div class="banner-bottom">
+          <center>
+            <div>
+              <span>🛠️ Site under construction. Links may be broken. Information may be incorrect. 🛠️</span>
+            </div>
+          </center>
+        </div>
+      </footer>
+    </div>
     <div class="wrapper">
       <!-- Page Content Holder -->
       <div id="content">
@@ -59,63 +79,63 @@
             </div>
           </div>
         </nav>
-				<h2 id="PracticalAssessment">Practical Assessment</h2>
-				<p>Practical Assesment is done in the Computer Lab, under the supervision of your teacher, the external examiner, and possibly external invigilators as well.</p>
-				<p>The Practical Assessment is the biggest part of your Internal Marks, as evidenced by the marking strcture, accounting for 40% of your Internals.</p>
-				<p>While "sample" papers / "worksheets" (if you know, you know) may be handed out before the exam (depends on the teacher), it is important to know what each line of code does, so that you can answer confidently if the external decides to go around and ask you.</p>
-				<p>Questions aren't certain; formats and types of questions may change, hence you must practice as much as possible.</p>
-				<p>QPs from AY 2022-2023 are available <a href="https://github.com/tahayparker/CS12/tree/main/PracticalExam">
-						<u>here</u>
-					</a>
-				</p>
-				<p>The exam is easy, and nothing to stress about. If you are proficient, you'll take about 10 - 15 minutes. If you're at the bottom of the class, you'll take, at maximum, 45 minutes, including submission.</p>
-				<p>The answer sheet for the Practical Assessment is to be formatted as follows:
-				<p>
-				<ul>
-					<li>Exam Name (All India Senior Secondary...)</li>
-					<li>Roll Number, Set Number</li>
-					<li>Question Number (1A, 1B, etc.)</li>
-					<li>Screenshot of code</li>
-					<li>Screenshot of output</li>
-				</ul>
-				<p>The batch of '23 did <u>not</u> have to write anything on paper as printer was provided for the exam, however, this may change. </p>
-				<p>Consult your teacher for the most up-to-date info regarding this exam.</p>
-				<p>And please, for God's sake, DO NOT ASK THE EXTERNALS FOR HELP. Gives them grounds to cut marks.</p>
-			</div>
-		</div>
-        <div class="footer">
-            <footer>
-              <div class="footer-bottom">
-                <center>
-                  <div>
-                    <span>CS Internals Guide | Created by Taha Parker | <a href="https://linktr.ee/tahayparker">Contact</a>
-                    </span>
-                  </div>
-                </center>
-              </div>
-            </footer>
-          </div>
-          <script>
-            $(function() {
-              'use strict'
-              $("[data-trigger]").on("click", function() {
-                var trigger_id = $(this).attr('data-trigger');
-                $(trigger_id).toggleClass("show");
-                $('body').toggleClass("offcanvas-active");
-              });
-              // close if press ESC button 
-              $(document).on('keydown', function(event) {
-                if (event.keyCode === 27) {
-                  $(".navbar-collapse").removeClass("show");
-                  $("body").removeClass("overlay-active");
-                }
-              });
-              // close button 
-              $(".btn-close").click(function(e) {
-                $(".navbar-collapse").removeClass("show");
-                $("body").removeClass("offcanvas-active");
-              });
-            })
-          </script>
-    </body>
+        <h2 id="PracticalAssessment">Practical Assessment</h2>
+        <p>Practical Assesment is done in the Computer Lab, under the supervision of your teacher, the external examiner, and possibly external invigilators as well.</p>
+        <p>The Practical Assessment is the biggest part of your Internal Marks, as evidenced by the marking strcture, accounting for 40% of your Internals.</p>
+        <p>While "sample" papers / "worksheets" (if you know, you know) may be handed out before the exam (depends on the teacher), it is important to know what each line of code does, so that you can answer confidently if the external decides to go around and ask you.</p>
+        <p>Questions aren't certain; formats and types of questions may change, hence you must practice as much as possible.</p>
+        <p>QPs from AY 2022-2023 are available <a href="https://github.com/tahayparker/CS12/tree/main/PracticalExam">
+            <u>here</u>
+          </a>
+        </p>
+        <p>The exam is easy, and nothing to stress about. If you are proficient, you'll take about 10 - 15 minutes. If you're at the bottom of the class, you'll take, at maximum, 45 minutes, including submission.</p>
+        <p>The answer sheet for the Practical Assessment is to be formatted as follows (subject to change, ask teacher for latest info):
+        <p>
+        <ul>
+          <li>Exam Name (All India Senior...)</li>
+          <li>Roll Number, Set Number</li>
+          <li>Question Number (1A, 1B, etc.)</li>
+          <li>Screenshot of code</li>
+          <li>Screenshot of output</li>
+        </ul>
+        <p>The batch of '23 did <u>not</u> have to write anything on paper as printer was provided for the exam, however, this may change. </p>
+        <p>Consult your teacher for the most up-to-date info regarding this exam.</p>
+        <p>And please, for God's sake, <strong>DO NOT ASK THE EXTERNALS FOR HELP</strong>. Gives them grounds to cut marks. If you have any doubts, wait for the externals to leave for their break and then ask your teacher, or if it is an emergency, quietly raise your hand to call the teacher to you.</p>
+      </div>
+    </div>
+    <div class="footer">
+      <footer>
+        <div class="footer-bottom">
+          <center>
+            <div>
+              <span>CS Internals Guide | Created by Taha Parker | <a href="https://linktr.ee/tahayparker">Contact</a>
+              </span>
+            </div>
+          </center>
+        </div>
+      </footer>
+    </div>
+    <script>
+      $(function() {
+        'use strict'
+        $("[data-trigger]").on("click", function() {
+          var trigger_id = $(this).attr('data-trigger');
+          $(trigger_id).toggleClass("show");
+          $('body').toggleClass("offcanvas-active");
+        });
+        // close if press ESC button 
+        $(document).on('keydown', function(event) {
+          if (event.keyCode === 27) {
+            $(".navbar-collapse").removeClass("show");
+            $("body").removeClass("overlay-active");
+          }
+        });
+        // close button 
+        $(".btn-close").click(function(e) {
+          $(".navbar-collapse").removeClass("show");
+          $("body").removeClass("offcanvas-active");
+        });
+      })
+    </script>
+  </body>
 </html>

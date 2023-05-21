@@ -4,12 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS Internals Guide</title>
+    <!-- Google Fonts CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/site.webmanifest">
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
@@ -23,6 +32,17 @@
     <script src="script.js"></script>
   </head>
   <body>
+    <div class="banner">
+      <footer>
+        <div class="banner-bottom">
+          <center>
+            <div>
+              <span>🛠️ Site under construction. Links may be broken. Information may be incorrect. 🛠️</span>
+            </div>
+          </center>
+        </div>
+      </footer>
+    </div>
     <div class="wrapper">
       <!-- Page Content Holder -->
       <div id="content">
@@ -59,46 +79,97 @@
             </div>
           </div>
         </nav>
-
-				<!--INSERT CODE HERE-->
-			</div>
-		</div>
-		
-
-        <div class="footer">
-            <footer>
-              <div class="footer-bottom">
-                <center>
-                  <div>
-                    <span>CS Internals Guide | Created by Taha Parker | <a href="https://linktr.ee/tahayparker">Contact</a>
-                    </span>
-                  </div>
-                </center>
-              </div>
-            </footer>
-          </div>
-          <script>
-            $(function() {
-              'use strict'
-              $("[data-trigger]").on("click", function() {
-                var trigger_id = $(this).attr('data-trigger');
-                $(trigger_id).toggleClass("show");
-                $('body').toggleClass("offcanvas-active");
-              });
-              // close if press ESC button 
-              $(document).on('keydown', function(event) {
-                if (event.keyCode === 27) {
-                  $(".navbar-collapse").removeClass("show");
-                  $("body").removeClass("overlay-active");
-                }
-              });
-              // close button 
-              $(".btn-close").click(function(e) {
-                $(".navbar-collapse").removeClass("show");
-                $("body").removeClass("offcanvas-active");
-              });
-            })
-          </script>
-      
-	</body>
+        <!--INSERT CODE HERE-->
+        <h2>Project File</h2>
+        <p>A printed, binded document.</p>
+        <p>Contains your project written in pure Python with connectivity to MySQL.</p>
+        <br>
+        <h2>The Project</h2>
+        <p>This is the only project that you will have to do in your entire year.</p>
+        <p>The project must be written in Python and must use MySQL connectivity.</p>
+        <p>On the Python side, there should be at least 3 - 4 user-defined functions.</p>
+        <p>On the MySQL side, there should be at least 2 tables. You should also use at least 4 MySQL functions, such as UPDATE, INSERT, DELETE, SELECT, etc.</p>
+        <br>
+        <p>There is no limit to what you can do in your project, however, you are limited to the usage of only Python and MySQL.</p>
+        <p>This means you cannot integrate your project with other languages such as Flask.</p>
+        <br>
+        <p>You are free to create as many user-defined functions as you want, and import as many modules you want.</p>
+        <p>You may also create as many tables in MySQL as you see fit.</p>
+        <br>
+        <p>Considering the restraints, most projects end up being variations of one another, but unique in their own way.</p>
+        <p>Some broad categories include:</p>
+        <ul>
+          <li>Store-fronts (Movie store, Bookstore, etc.)</li>
+          <li>Management (Inventory Management, Employee Management, etc.)</li>
+          <li>Billing Systems (Electricity Billing, etc.)</li>
+        </ul>
+        <br>
+        <h2>The File / Record</h2>
+        <p>Your file should contain the following:</p>
+        <ul>
+          <li>Cover Page</li>
+          <li>Certificate</li>
+          <li>Acknowledgement</li>
+          <li>Introduction</li>
+          <li>Synopsis</li>
+          <li>System Description</li>
+          <li>Program Source Code</li>
+          <li>Program Output</li>
+          <li>Conclusion</li>
+          <li>Bibliography</li>
+        </ul>
+        <br>
+        <p>These will be explained in detail in the following sections.</p>
+        <br>
+        <p>Your file should have borders on all pages. The borders should be formal. Consider selecting solid or double borders, preferably in black.</p>
+        <p>Your file should have page numbers on all pages. There is no rule regarding the format, but the preferred placement of the page number is either bottom centered or in the bottom right corner.</p>
+        <p>Leave a margin on the left for the binding. You may go with narrow borders, and then press custom borders and add 0.5 to 1 cm to the margin on the left.</p>
+        <br>
+        <h2>Cover Page</h2>
+        <p>This is the first page of your record.</p>
+        <p>Contains the title ("Project Record"), the academic year, the name of your project (three to four words max), and a place for your details.</p>
+        <p>The page numbers for the record start from the cover page.</p>
+        <p>Ensure logos and other details are </p>
+        <p>
+          <strong>DO NOT PRINT THE DETAILS</strong>. These will be written by hand, using black/blue ink on or before the day of the practical exam.
+        </p>
+        <br>
+        <h2>Certificate</h2>
+      </div>
+    </div>
+    <div class="footer">
+      <footer>
+        <div class="footer-bottom">
+          <center>
+            <div>
+              <span>CS Internals Guide | Created by Taha Parker | <a href="https://linktr.ee/tahayparker">Contact</a>
+              </span>
+            </div>
+          </center>
+        </div>
+      </footer>
+    </div>
+    <script>
+      $(function() {
+        'use strict'
+        $("[data-trigger]").on("click", function() {
+          var trigger_id = $(this).attr('data-trigger');
+          $(trigger_id).toggleClass("show");
+          $('body').toggleClass("offcanvas-active");
+        });
+        // close if press ESC button 
+        $(document).on('keydown', function(event) {
+          if (event.keyCode === 27) {
+            $(".navbar-collapse").removeClass("show");
+            $("body").removeClass("overlay-active");
+          }
+        });
+        // close button 
+        $(".btn-close").click(function(e) {
+          $(".navbar-collapse").removeClass("show");
+          $("body").removeClass("offcanvas-active");
+        });
+      })
+    </script>
+  </body>
 </html>
