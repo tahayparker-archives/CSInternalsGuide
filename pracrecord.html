@@ -15,10 +15,10 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/favicons/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
@@ -61,26 +61,37 @@
               </div>
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="pracassmt.html" style="color: #008785; text-align: right;">Practical Assessment</a>
+                  <a class="nav-link" href="pracassmt.html">Practical Assessment</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="projectfile.html" style="color: #008785; text-align: right;">Project File</a>
+                  <a class="nav-link" onmouseover="this.style.color='#008785'; this.style.background='transparent'">|</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pracrecord.html" style="color: #008785; text-align: right;">Practical Record</a>
+                  <a class="nav-link" href="projectfile.html">Project File</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="viva.html" style="color: #008785; text-align: right;">Viva</a>
+                  <a class="nav-link" onmouseover="this.style.color='#008785'; this.style.background='transparent'">|</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://linktr.ee/tahayparker" style="color: #008785; text-align: right;">Contact</a>
+                  <a class="nav-link" href="pracrecord.html">Practical Record</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onmouseover="this.style.color='#008785'; this.style.background='transparent'">|</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="viva.html">Viva</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onmouseover="this.style.color='#008785'; this.style.background='transparent'">|</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://linktr.ee/tahayparker">Contact</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
-
-<!--INSERT CODE HERE-->
+        <!--INSERT CODE HERE-->
         <h2>Practical Record</h2>
         <p>Much much easier than the Project Record, considering it's just copy paste.</p>
         <p>Two parts: Python and MySQL</p>
@@ -88,11 +99,23 @@
         <h2>The Record</h2>
         <p>Your file should contain the following headers:</p>
         <ul>
-          <li href="#coverpage">Cover Page</li>
-          <li href="#certificate">Certificate</li>
-          <li href="#python">Python programs (questions listed)</li>
-          <li href="#mysql">MySQL programs</li>
+          <li>
+            <a href="#coverpage">Cover Page</a>
+          </li>
+          <li>
+            <a href="#certificate">Certificate</a>
+          </li>
+          <li>
+            <a href="#python">Python programs (questions to be listed in index)</a>
+          </li>
+          <li>
+            <a href="#mysql">MySQL programs</a>
+          </li>
         </ul>
+        <p>Your file should have borders on all pages. The borders should be formal. Consider selecting solid or double borders, preferably in black.</p>
+        <p>Your file should have page numbers on all pages. There is no rule regarding the format, but the preferred placement of the page number is either bottom centered or in the bottom right corner.</p>
+        <p>Leave a margin on the left for the binding. You may go with narrow borders, and then press custom borders and add 0.5 to 1 cm to the margin on the left.</p>
+        <p>Ensure that the page numbers are within the margins.</p>
         <div class="line"></div>
         <h2 id="coverpage">Cover Page</h2>
         <p>
@@ -121,22 +144,66 @@
         <div class="line"></div>
         <h2 id="python">Python</h2>
         <p>There should be at least 20 to 25 Python programs in your practical record.</p>
-        <p>These programs should be <strong>copy-pasted. NO SCREENSHOTS.</strong></p>
-        <p><strong>Ensure that the programs are part of the portions.</strong></p>
+        <p>These programs should be <strong>copy-pasted. NO SCREENSHOTS.</strong>
+        </p>
+        <p>
+          <strong>Ensure that the programs are part of the portions.</strong>
+        </p>
         <p>Ensure that the programs are numbered.</p>
         <p>The format for each question is as follows:</p>
         <ul>
           <li>Experiment No. (number)</li>
           <li>Aim: (insert aim here)</li>
-          <li><u>Code</u><br>(insert code here)</li>
-          <li><u>Output</u><br>(insert output here)</li>
+          <li>
+            <u>Code</u>
+            <br>(insert code here)
+          </li>
+          <li>
+            <u>Output</u>
+            <br>(insert output here)
+          </li>
         </ul>
         <p>Ensure that the code is in a monospace font (Courier New, Consolas, etc.)</p>
+        <p>Use <a href="https://fonts.google.com/">
+          <u>Google Fonts</u>
+        </a> to find monospaced fonts. </p>
         <p>Try to run the program multiple times to fill the page. If the program has a menu, show the output of all the menus.</p>
         <div class="line"></div>
-        <h2>MySQL</h2>
+        <h2 id="mysql">MySQL</h2>
         <p>You may or may not have started this when you started learning MySQL.</p>
-        <p>This should contain </p>
+        <p>This should contain around 50 to 70 SQL questions, from various concepts learnt throughout the whole SQL journey.</p>
+        <p>The format is as follows:</p>
+        <ul>
+          <li>(qs number). (Question)</li>
+          <li>(SQL Query)</li>
+          <li>(Output)</li>
+        </ul>
+        <p>Ensure that the SQL queries and outputs are in a monospace font (Courier New, Consolas, etc.)</p>
+        <div class="line"></div>
+        <h2>Tips</h2>
+        <h2>Finalizing & Printing</h2>
+        <p>Once you are done with the first draft of the file, export it as a PDF and send it to your teacher for approval.</p>
+        <p>Printing should be done preferably on 80 GSM paper. Size is compulsorily A4.</p>
+        <br>
+        <p>When sending for printing, <strong>please send the PDF.</strong> Using Word for printing <strong>will ruin the formatting.</strong>
+        </p>
+        <p>Use a good quality printer. The print should be clear and readable.</p>
+        <p>If your parent's company has a printer, try asking if they can print. Otherwise, go to a stationery shop. Bargain as much as you can. Should be around 1 AED for 5 pages or so.</p>
+        <p>Once you have printed the file, bind it. Spiral binding is the only binding accepted. Color should be as decided by your teacher.</p>
+        <br>
+        <p>All students <strong>MUST</strong> use the same color of binding. </p>
+        <p>Once you have bound the file, you are done. Congratulations! Submit the file for final checks.</p>
+        <p>While there shouldn't be any reason for the teacher to make corrections now (if the file was previously approved), it is still a good idea to get it checked once and correct any errors that may be pointed out.</p>
+        <div class="line"></div>
+        <h2>Tips</h2>
+        <p>Color your code. Use a light theme in Visual Studio Code and then copy paste the code into Word.</p>
+        <p>The theme and the syntax highlighting will be copied as well. Looks nice, makes for a good first impression. Also hides errors.</p>
+        <p>I personally used <a href="https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes">
+            <u>Kary Pro Colors</u>
+          </a> after messing around a bit with the theme files to change a few colors. </p>
+        <div class="line"></div>
+        <h2>Samples</h2>
+        <p><a href="PracExp"><u>Click here</u></a> to see Python practical questions from the Batch of '23.</p>
       </div>
     </div>
     <div class="footer">

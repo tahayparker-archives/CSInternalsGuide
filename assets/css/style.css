@@ -64,7 +64,7 @@ ul {
 }
 
 strong {
-  color:#30d9cb;
+  color: #30d9cb;
   font-weight: 700;
 }
 
@@ -108,7 +108,7 @@ a:focus {
 
 .navbar-nav .nav-item .nav-link {
   color: #008785;
-  text-align: right;  
+  text-align: right;
   cursor: url(cursor.png), none;
 }
 
@@ -229,34 +229,67 @@ footer {
     height: auto;
     cursor: url(cursor.png), none;
   }
+
+  banner {
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 30px;
+    cursor: url(cursor.png), none;
+  }
+
+  .banner-bottom center {
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #a4190a;
+    cursor: url(cursor.png), none;
+  }
+
+  .banner-bottom center span {
+    color: #f9fecd;
+    cursor: url(cursor.png), none;
+  }
+
+  .banner-bottom center a {
+    text-decoration: none;
+    cursor: url(cursor.png), none;
+  }
+
+  .banner-bottom center a:hover {
+    text-decoration: underline;
+    cursor: url(cursor.png), none;
+  }
 }
 
-banner {
-  bottom: 0;
-  width: 100%;
-  left: 0;
-  height: 30px;
-  cursor: url(cursor.png), none;
-}
+@media (min-width: 993px) {
+  banner {
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 30px;
+    cursor: url(cursor.png), none;
+  }
 
-.banner-bottom center {
-  padding: 5px;
-  font-size: 0.9375rem;
-  background: #a4190a;
-  cursor: url(cursor.png), none;
-}
+  .banner-bottom center {
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #a4190a;
+    cursor: url(cursor.png), none;
+    display: none;
+  }
 
-.banner-bottom center span {
-  color: #f9fecd;
-  cursor: url(cursor.png), none;
-}
+  .banner-bottom center span {
+    color: #f9fecd;
+    cursor: url(cursor.png), none;
+  }
 
-.banner-bottom center a {
-  text-decoration: none;
-  cursor: url(cursor.png), none;
-}
+  .banner-bottom center a {
+    text-decoration: none;
+    cursor: url(cursor.png), none;
+  }
 
-.banner-bottom center a:hover {
-  text-decoration: underline;
-  cursor: url(cursor.png), none;
+  .banner-bottom center a:hover {
+    text-decoration: underline;
+    cursor: url(cursor.png), none;
+  }
 }
