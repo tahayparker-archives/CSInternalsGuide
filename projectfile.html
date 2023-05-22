@@ -321,7 +321,9 @@
         <h2>Code Formatting Guidelines</h2>
         <p>Format your Python code in the following format, so that it can be run on any computer with minimal to no changes to the code.</p>
         <code> import os <br> import sys <br> os.system("cls") OR <strong>os.system("clear") (ON MACS/LINUX ONLY)</strong>
-          <br> print(Program Title in ANSI Characters) <br> try: <br> os.system("pip install mysql-connector-python") <br> os.system("pip install #any other modules you used# ") <br> except: <br> sys.exit("Error installing modules!") <br> try: <br> import mysql.connector <br> import #any other modules you used# <br> except: <br> sys.exit("Error importing modules!") <br>
+          <br> print(""" <br>
+          Program Title in ANSI Characters <br>
+          """) <br> try: <br> os.system("pip install mysql-connector-python") <br> os.system("pip install #any other modules you used# ") <br> except: <br> sys.exit("Error installing modules!") <br> try: <br> import mysql.connector <br> import #any other modules you used# <br> except: <br> sys.exit("Error importing modules!") <br>
           <br> # MySQL Connection Code <br> con = <br> cursor = <br>
           <br> # MySQL Table Creation <br> cursor.execute("CREATE TABLE IF NOT EXISTS table-name (column-name data-type);") <br>
           <br> # MySQL Data Insertion <br> # Add the data to be inserted into the table using text file and INSERT command if any data is to be inserted <br>
