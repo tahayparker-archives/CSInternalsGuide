@@ -15,10 +15,10 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/favicons/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
@@ -64,13 +64,25 @@
                   <a class="nav-link" href="pracassmt.html">Practical Assessment</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" onmouseover="this.style.color='#008785'; this.style.background='transparent'">|</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="projectfile.html">Project File</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onmouseover="this.style.color='#008785'; this.style.background='transparent'">|</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="pracrecord.html">Practical Record</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" onmouseover="this.style.color='#008785'; this.style.background='transparent'">|</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="viva.html">Viva</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onmouseover="this.style.color='#008785'; this.style.background='transparent'">|</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="https://linktr.ee/tahayparker">Contact</a>
@@ -87,6 +99,7 @@
         <h2>The Project</h2>
         <p>This is the only project that you will have to do in your entire year.</p>
         <p>The project must be written in Python and must use MySQL connectivity.</p>
+        <p>The program must be a Menu-Driven Program.</p>
         <p>On the Python side, there should be at least 3 - 4 user-defined functions.</p>
         <p>On the MySQL side, there should be at least 2 tables. You should also use at least 4 MySQL functions, such as UPDATE, INSERT, DELETE, SELECT, etc.</p>
         <br>
@@ -107,16 +120,36 @@
         <h2>The File / Record</h2>
         <p>Your file should contain the following headers:</p>
         <ul>
-          <li><a href="#coverpage">Cover Page</a></li>
-          <li><a href="#certificate">Certificate</a></li>
-          <li><a href="#acknowledgement">Acknowledgement</a></li>
-          <li><a href="#intro">Introduction</a></li>
-          <li><a href="#synopsis">Synopsis</a></li>
-          <li><a href="#sysdesc">System Description</a></li>
-          <li><a href="#psc">Program Source Code</a></li>
-          <li><a href="#po">Program Output</a></li>
-          <li><a href="#conc">Conclusion</a></li>
-          <li><a href="#ref">Bibliography</a></li>
+          <li>
+            <a href="#coverpage">Cover Page</a>
+          </li>
+          <li>
+            <a href="#certificate">Certificate</a>
+          </li>
+          <li>
+            <a href="#acknowledgement">Acknowledgement</a>
+          </li>
+          <li>
+            <a href="#intro">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#sysdesc">System Description</a>
+          </li>
+          <li>
+            <a href="#psc">Program Source Code</a>
+          </li>
+          <li>
+            <a href="#po">Program Output</a>
+          </li>
+          <li>
+            <a href="#conc">Conclusion</a>
+          </li>
+          <li>
+            <a href="#ref">Bibliography</a>
+          </li>
         </ul>
         <br>
         <p>These will be explained in detail in the following sections.</p>
@@ -127,7 +160,9 @@
         <p>Each of the headers mentioned above should start on a new page, even if the rest of the page is empty. Headers should be on the top, center-aligned.</p>
         <div class="line"></div>
         <h2 id="coverpage">Cover Page</h2>
-        <p><strong>This page must be provided by your teacher.</strong></p>
+        <p>
+          <strong>This page must be provided by your teacher.</strong>
+        </p>
         <p>This is the first page of your record.</p>
         <p>Contains the title ("Project Record"), the academic year, the name of your project (three to four words max), and a place for your details.</p>
         <p>The page numbers for the record start from the cover page.</p>
@@ -137,7 +172,9 @@
         </p>
         <div class="line"></div>
         <h2 id="certificate">Certificate</h2>
-        <p><strong>This page must be provided by your teacher.</strong></p>
+        <p>
+          <strong>This page must be provided by your teacher.</strong>
+        </p>
         <p>This is the second page of your record.</p>
         <p>This page must be numbered as well.</p>
         <p>Contains a certificate stating that the project is your own work and stuff.</p>
@@ -146,7 +183,7 @@
         <p>Ensure that the correct academic year has been printed.</p>
         <p>
           <strong>DO NOT PRINT THE DETAILS</strong>. These will be written by hand, using black/blue ink on or before the day of the practical exam.
-        </p>     
+        </p>
         <div class="line"></div>
         <h2 id="acknowledgement">Acknowledgement</h2>
         <p>Pretty straighforward, nothing to worry about.</p>
@@ -170,37 +207,47 @@
         <h4>Python</h4>
         <p>Include the following:</p>
         <ul>
-          <li>File Name - Usually <code>project.py</code> or <code>your-project-name.py</code></li>
+          <li>File Name - Usually <code>project.py</code> or <code>your-project-name.py</code>
+          </li>
           <li>Import statements - All the modules that you have imported.</li>
-          <li>Built-in functions - such as <code>print()</code>, <code>connect()</code>, <code>append()</code>, etc. Functions imported from modules go here. Include any and all functions.</li>
+          <li>Built-in functions - such as <code>print()</code>, <code>connect()</code>, <code>append()</code>, etc. Functions imported from modules go here. Include any and all functions. </li>
           <li>User-defined functions - Any functions you have made yourself should be included here.</li>
-          <li>Comment: When adding functions, include any parameters you have included in the function header. Example: <code>connect(host, user, password, database)</code></li>
-          <li>Variables - Any and all variables you may have used. This includes variables such as <code>i</code> which is used in <code>for i in ...</code></li>
+          <li>Comment: When adding functions, include any parameters you have included in the function header. Example: <code>connect(host, user, password, database)</code>
+          </li>
+          <li>Variables - Any and all variables you may have used. This includes variables such as <code>i</code> which is used in <code>for i in ...</code>
+          </li>
         </ul>
         <h4>MySQL</h4>
         <p>Include the following:</p>
         <ul>
-          <li>Database Name - Usually <code>your-project-name</code></li>
-          <li>Table 1 : <code>table-name</code></li>
-          <li>Output of <code>desc table-name</code></li>
+          <li>Database Name - Usually <code>your-project-name</code>
+          </li>
+          <li>Table 1 : <code>table-name</code>
+          </li>
+          <li>Output of <code>desc table-name</code>
+          </li>
         </ul>
         <p>Continue for all tables in the database.</p>
         <div class="line"></div>
         <h2 id="psc">Program Source Code</h2>
         <p>If you don't know what this is, seriously, are you even a CS student?</p>
         <p>This is the entire Python program that you have written.</p>
-        <p><strong>Code must be COPY-PASTED. NO SCREENSHOTS.</strong></p>
+        <p>
+          <strong>Code must be COPY-PASTED. NO SCREENSHOTS.</strong>
+        </p>
         <p>Ensure that the program is properly indented.</p>
-        <p>It is recommended to use a monospace font, such as <code>Consolas</code> or any other font from the Internet.</p>
-        <p>Use <a href="https://fonts.google.com/">Google Fonts</a> to find monospaced fonts.</p>
+        <p>It is recommended to use a monospace font, such as <code>Consolas</code> or any other font from the Internet. </p>
+        <p>Use <a href="https://fonts.google.com/">Google Fonts</a> to find monospaced fonts. </p>
         <div class="line"></div>
         <h2 id="po">Program Output</h2>
         <p>The output of the program.</p>
         <p>Include all possible runs of the program, by selecting the different options of the menu.</p>
-        <p>If you run the program multiple times to get outputs, it is recommended to write <code>Run (number)</code> to show that the program output is from different sessions.</p>
-        <p><strong>Output must be COPY-PASTED. NO SCREENSHOTS.</strong></p>
+        <p>If you run the program multiple times to get outputs, it is recommended to write <code>Run (number)</code> to show that the program output is from different sessions. </p>
+        <p>
+          <strong>Output must be COPY-PASTED. NO SCREENSHOTS.</strong>
+        </p>
         <p>If you have colors in your output, ensure that the same color is applied in the output.</p>
-        <p>It is recommended to use a monospace font, such as <code>Consolas</code> or any other font from the Internet.</p>
+        <p>It is recommended to use a monospace font, such as <code>Consolas</code> or any other font from the Internet. </p>
         <div class="line"></div>
         <h2 id="conc">Conclusion</h2>
         <p>Write a brief conclusion about your project.</p>
@@ -232,20 +279,67 @@
         <div class="line"></div>
         <h2>Finalizing & Printing</h2>
         <p>Once you are done with the first draft of the file, export it as a PDF and send it to your teacher for approval.</p>
-        <p>
+        <p>Printing should be done preferably on 80 GSM paper. Size is compulsorily A4.</p>
+        <br>
+        <p>When sending for printing, <strong>please send the PDF.</strong> Using Word for printing <strong>will ruin the formatting.</strong>
+        </p>
+        <p>Use a good quality printer. The print should be clear and readable.</p>
+        <p>If your parent's company has a printer, try asking if they can print. Otherwise, go to a stationery shop. Bargain as much as you can. Should be around 1 AED for 5 pages or so.</p>
+        <p>Once you have printed the file, bind it. Spiral binding is the only binding accepted. Color should be as decided by your teacher.</p>
+        <br>
+        <p>All students <strong>MUST</strong> use the same color of binding. </p>
+        <p>Once you have bound the file, you are done. Congratulations! Submit the file for final checks.</p>
+        <p>While there shouldn't be any reason for the teacher to make corrections now (if the file was previously approved), it is still a good idea to get it checked once and correct any errors that may be pointed out.</p>
+        <div class="line"></div>
         <h2>Tips</h2>
-        <p>Use <a href="https://code.visualstudio.com/#alt-downloads"><u>Visual Studio Code</u></a> to write your project.</p>
+        <p>Use <a href="https://code.visualstudio.com/#alt-downloads">
+            <u>Visual Studio Code</u>
+          </a> to write your project. </p>
         <p>It has syntax highlighting, themes, and auto-save functions among many others. Highly recommended.</p>
         <br>
         <p>Color your code. Use a light theme in Visual Studio Code and then copy paste the code into Word.</p>
         <p>The theme and the syntax highlighting will be copied as well. Looks nice, makes for a good first impression. Also hides errors.</p>
-        <p>I personally used <a href="https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes"><u>Kary Pro Colors</u></a> after messing around a bit with the theme files to change a few colors.</p>
+        <p>I personally used <a href="https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes">
+            <u>Kary Pro Colors</u>
+          </a> after messing around a bit with the theme files to change a few colors. </p>
         <br>
-        <p>Use <a href="https://github.com/features/copilot"><u>GitHub Copilot</u></a> to help you write code. Helps save time.</p>
-        <p>Free for students, but you must apply for the <a href="https://education.github.com/discount_requests/application"><u>GitHub Education Pack</u></a>. It's free, and at max you'll have to just show that you're a student.</p>
+        <p>Use <a href="https://github.com/features/copilot">
+            <u>GitHub Copilot</u>
+          </a> to help you write code. Helps save time. </p>
+        <p>Free for students, but you must apply for the <a href="https://education.github.com/discount_requests/application">
+            <u>GitHub Education Pack</u>
+          </a>. It's free, and at max you'll have to just show that you're a student. </p>
         <p>Recommend using the school email to sign up, the approval is faster.</p>
         <br>
-
+        <p>Use this <a href="https://patorjk.com/software/taag/"> ANSI Character Generator</a> to create cool looking titles that you can display when the program starts. </p>
+        <div class="line"></div>
+        <h2>Code Formatting Guidelines</h2>
+        <p>Format your Python code in the following format, so that it can be run on any computer with minimal to no changes to the code.</p>
+        <code> import os <br> import sys <br> os.system("cls") OR <strong>os.system("clear") (ON MACS ONLY)</strong>
+          <br> print(Program Title in ANSI Characters) <br> try: <br> os.system("pip install mysql-connector-python") <br> os.system("pip install #any other modules you used# ") <br> except: <br> sys.exit("Error installing modules!") <br> try: <br> import mysql.connector <br> import #any other modules you used# <br> except: <br> sys.exit("Error importing modules!") <br>
+          <br> # MySQL Connection Code <br> con = <br> cursor = <br>
+          <br> # MySQL Table Creation <br> cursor.execute("CREATE TABLE IF NOT EXISTS table-name (column-name data-type);") <br>
+          <br> # MySQL Data Insertion <br> # Add the data to be inserted into the table using text file and INSERT command if any data is to be inserted <br>
+          <br> # All User Defined Functions <br>
+          <br> def function-name(): <br> # Function Code <br>
+          <br> # Main Menu <br> -- END -- </code>
+        <p>============================================================================</p>
+        <p>
+          <code>import os, sys</code> imports special modules that help connect with the terminal of your system.
+        </p>
+        <p>
+          <code>os.system("cls") / os.system("clear")</code> clears the terminal so that all the messy input/output/errors on the screen are cleared off.
+        </p>
+        <p>
+          <code>os.system</code> runs <code>pip</code> to install modules that you use so that you don't have to manually install them.
+        </p>
+        <p>Instead of <code>pip install</code>, you can use <code>pip3 install -qqq --disable-pip-version-check --no-cache-dir --no-color --no-warn-conflicts --user --no-python-version-warning --no-input --no-warn-script-location</code> to hide the installation process from the user. </p>
+        <p>
+          <code>sys.exit</code> exits the program if there is an error in the code.
+        </p>
+        <p>
+          <code>cursor.execute("CREATE TABLE IF NOT EXISTS")</code> creates the tables from within Python itself, so you don't even have to see the MySQL terminal. Also ensures that the code works on any and every computer, provided the MySQL password is the same for all users.
+        </p>
       </div>
     </div>
     <div class="footer">
