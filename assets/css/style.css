@@ -46,6 +46,11 @@ h4 {
   cursor: url(cursor.png), none;
 }
 
+h4:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.2s;
+}
+
 ul {
   font-family: "Comfortaa", monospace;
   font-size: 1.1em;
@@ -89,6 +94,20 @@ a:focus {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   list-style-type: none;
   font-size: 1.5em;
+  cursor: url(cursor.png), none;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #f2cb91;
+  background-color: #ac0c79;
+  transition: all 0.2s;
+  transition-duration: 2ms;
+  cursor: url(cursor.png), none;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #008785;
+  text-align: right;  
   cursor: url(cursor.png), none;
 }
 
