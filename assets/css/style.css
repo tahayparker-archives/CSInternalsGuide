@@ -213,7 +213,6 @@ footer {
 
   .navbar-nav {
     text-align: right;
-    position: fixed;
   }
 
   .navbar-nav .nav-link {
@@ -259,6 +258,10 @@ footer {
     text-decoration: underline;
     cursor: url(cursor.png), none;
   }
+
+  #bar {
+    display: none;
+  }
 }
 
 @media (min-width: 993px) {
@@ -292,4 +295,5 @@ footer {
     text-decoration: underline;
     cursor: url(cursor.png), none;
   }
+
 }
