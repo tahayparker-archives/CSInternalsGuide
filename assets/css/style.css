@@ -2,11 +2,12 @@
 
 html {
   scroll-behavior: smooth;
+  cursor: url(cursor.png), none;
 }
 
 body {
   font-family: "Comfortaa", monospace;
-  background: #0a0606;
+  background: #050505;
   cursor: url(cursor.png), none;
 }
 
@@ -63,6 +64,10 @@ ul {
   cursor: url(cursor.png), none;
 }
 
+li {
+  overflow-wrap:normal;
+}
+
 strong {
   color: #30d9cb;
   font-weight: 700;
@@ -79,7 +84,7 @@ a:focus {
 
 .navbar {
   padding: 10px 0px;
-  background: #fff;
+  background: #FFF;
   border: none;
   border-radius: 0;
   margin-bottom: 40px;
