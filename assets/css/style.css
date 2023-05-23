@@ -68,6 +68,12 @@ li {
   overflow-wrap:normal;
 }
 
+marquee:hover, marquee:active, marquee:focus {
+  -moz-animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
 strong {
   color: #30d9cb;
   font-weight: 700;
