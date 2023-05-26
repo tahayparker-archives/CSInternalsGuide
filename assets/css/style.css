@@ -175,6 +175,82 @@ footer {
     display: none;
 }
 
+.optional {
+    color: #629d6a !important;
+}
+
+.checklist {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .checklist input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+    background-color: #eee;
+  }
+
+  .checklist {
+    color: #e83e8c;
+    cursor: url(cursor.png), none;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .checklist:hover input ~ .checkmark {
+    background-color: #ffb084;
+    cursor: url(cursor.png), none;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .checklist input:checked ~ .checkmark {
+    background-color: #19ae2d;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .checklist input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .checklist .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 12px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
 @media (max-width: 992px) {
     .offcanvas-header {
         display: block;
