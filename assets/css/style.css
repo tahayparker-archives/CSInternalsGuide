@@ -66,6 +66,10 @@ li {
 strong {
     color: #30d9cb;
     font-weight: 700;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+
 }
 
 a,
@@ -284,8 +288,10 @@ footer {
         margin-left: 10px;
     }
 
-    ul {
+    ul li {
         overflow-wrap: break-word;
+        word-wrap: break-word;
+        white-space: normal;
     }
 
     .navbar-nav {
