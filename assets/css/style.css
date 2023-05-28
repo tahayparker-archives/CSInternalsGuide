@@ -53,7 +53,7 @@ ul {
     font-weight: 300;
     line-height: 1.7em;
     color: #caf1d1;
-    white-space: nowrap;
+    white-space: normal;
     margin-top: 10px;
     overflow-wrap: break-word;
     cursor: url(cursor.png), none;
@@ -69,7 +69,6 @@ strong {
     overflow-wrap: break-word;
     word-wrap: break-word;
     white-space: normal;
-
 }
 
 a,
