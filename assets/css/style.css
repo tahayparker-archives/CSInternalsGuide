@@ -7,7 +7,7 @@ html {
 
 body {
     font-family: "Comfortaa", monospace;
-    background: #174d76;
+    background: #0c2232;
     cursor: url(cursor.png), none;
 }
 
@@ -220,7 +220,7 @@ footer {
   
   /* On mouse-over, add a grey background color */
   .checklist:hover input ~ .checkmark {
-    background-color: #1a759f;
+    background-color: #52b69a;
     cursor: url(cursor.png), none;
   }
   
