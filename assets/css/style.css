@@ -7,7 +7,7 @@ html {
 
 body {
     font-family: "Comfortaa", monospace;
-    background: #050505;
+    background: #0c2232;
     cursor: url(cursor.png), none;
 }
 
@@ -16,7 +16,7 @@ p {
     font-weight: 300;
     font-size: 1.1em;
     line-height: 1.7em;
-    color: #ded5f6;
+    color: #d9ed92;
     cursor: url(cursor.png), none;
 }
 
@@ -24,7 +24,7 @@ h2 {
     font-family: "Comfortaa", monospace;
     font-weight: 700;
     font-size: 2em;
-    color: #a01877;
+    color: #76c893;
     margin-bottom: 30px;
     cursor: url(cursor.png), none;
 }
@@ -33,14 +33,14 @@ h3 {
     font-family: "Comfortaa", monospace;
     font-size: 1em;
     font-weight: 400;
-    color: #caf1d1;
+    color: #76c893;
     cursor: url(cursor.png), none;
 }
 
 h4 {
     font-family: "Comfortaa", monospace;
     font-size: 2em;
-    color: #8a1566;
+    color: #d9ed92;
     text-align: left;
     white-space: nowrap;
     margin-top: 10px;
@@ -52,7 +52,7 @@ ul {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #caf1d1;
+    color: #76c893;
     white-space: normal;
     margin-top: 10px;
     overflow-wrap: break-word;
@@ -64,7 +64,7 @@ li {
 }
 
 strong {
-    color: #30d9cb;
+    color: #b5e48c;
     font-weight: 700;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -92,7 +92,7 @@ a:focus {
 }
 
 .nav-item {
-    color: #008785;
+    color: #b5e48c;
     border: none;
     border-radius: 0;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
@@ -102,15 +102,15 @@ a:focus {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #f2cb91;
-    background-color: #ac0c79;
+    color: #b5e48c;
+    background-color: #b5e48c;
     transition: all 0.2s;
     transition-duration: 2ms;
     cursor: url(cursor.png), none;
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: #008785;
+    color: #52b69a;
     text-align: right;
     cursor: url(cursor.png), none;
 }
@@ -136,7 +136,7 @@ a:focus {
     width: 100%;
     padding: 25px;
     transition: all 0.1s;
-    color: "#ded5f6";
+    color: "#34a0a4";
     overflow-wrap: break-word;
     min-height: calc(100vh - 30px);
     overflow-x: hidden;
@@ -155,12 +155,12 @@ footer {
 .footer-bottom center {
     padding: 5px;
     font-size: 0.9375rem;
-    background: #850569;
+    background: #1a759f;
     cursor: url(cursor.png), none;
 }
 
 .footer-bottom center span {
-    color: #f9fecd;
+    color: #99d98c;
     cursor: url(cursor.png), none;
 }
 
@@ -179,7 +179,7 @@ footer {
 }
 
 .optional {
-    color: #629d6a !important;
+    color: #168aad !important;
 }
 
 .checklist {
@@ -220,7 +220,7 @@ footer {
   
   /* On mouse-over, add a grey background color */
   .checklist:hover input ~ .checkmark {
-    background-color: #ffb084;
+    background-color: #52b69a;
     cursor: url(cursor.png), none;
   }
   
@@ -280,7 +280,7 @@ footer {
     h4 {
         font-family: "Comfortaa", monospace;
         font-size: 1.5em;
-        color: #8a1566;
+        color: #d9ed92;
         text-align: left;
         white-space: nowrap;
         margin-top: 10px;
@@ -302,7 +302,7 @@ footer {
         cursor: url(cursor.png), none;
     }
     .navbar-nav .nav-link:hover {
-        color: #008785;
+        color: #99d98c;
         cursor: url(cursor.png), none;
     }
 
@@ -329,7 +329,7 @@ footer {
     }
 
     .banner-bottom center span {
-        color: #f9fecd;
+        color: #168aad;
         cursor: url(cursor.png), none;
     }
 
@@ -366,7 +366,7 @@ footer {
     }
 
     .banner-bottom center span {
-        color: #f9fecd;
+        color: #168aad;
         cursor: url(cursor.png), none;
     }
 
