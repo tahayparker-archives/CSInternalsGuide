@@ -89,6 +89,10 @@ a:focus {
     margin-left: -20px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     cursor: url(cursor.png), none;
+    top: 0;
+    left: 0;
+    right: 0;
+    
 }
 
 .nav-item {
@@ -258,6 +262,7 @@ footer {
     .offcanvas-header {
         display: block;
     }
+          
     .navbar-collapse {
         position: fixed;
         top: 0;
@@ -267,10 +272,11 @@ footer {
         padding-right: 1rem;
         padding-left: 1rem;
         overflow-y: auto;
+        overflow-x: hidden;
         visibility: hidden;
         background-color: black;
-        transition: visibility 0.2s ease-in-out,
-            -webkit-transform 0.2s ease-in-out;
+        transition: visibility 0.1s ease-in-out,
+            -webkit-transform 0.1s ease-in-out;
     }
     .navbar-collapse.show {
         visibility: visible;
@@ -294,6 +300,7 @@ footer {
     }
 
     .navbar-nav {
+        
         text-align: right;
     }
 
