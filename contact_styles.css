@@ -28,6 +28,7 @@ h1 {
   font-size: 2em;
   font-weight: 700;
   margin-bottom: 20px;
+  color: #3acb95;
 }
 
 h2 {
@@ -47,6 +48,10 @@ a {
 p {
   font-family: "Alexana Neue", cursive;
   font-size: 1.15em;
+}
+
+u {
+  color: #cc145e;
 }
 
 .tile {
