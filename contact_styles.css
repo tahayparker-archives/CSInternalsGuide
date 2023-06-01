@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: -5px;
   background-color: rgb(10, 10, 10);
   color: rgb(240, 240, 240);
   display: flex;
@@ -52,7 +52,7 @@ p {
 .tile {
   width: 100%;
   background-color: rgb(37, 37, 37);
-  margin: 4px;
+  margin: 3px;
   border-radius: 17px;
   display: flex;
   justify-content: space-between;
