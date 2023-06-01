@@ -7,7 +7,7 @@ html {
 
 body {
   font-family: "Comfortaa", monospace;
-  background: #0c2232;
+  background: #0c2232; /* to be changed */
   cursor: url(cursor.png), none;
 }
 
@@ -64,7 +64,7 @@ li {
 }
 
 strong {
-  color: #b5e48c;
+  color: #b5e48c; /* to be changed */
   font-weight: 700;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -106,7 +106,7 @@ a:focus {
 
 .navbar-nav .nav-item .nav-link:hover {
   color: #b5e48c;
-  background-color: #b5e48c;
+  background-color: #b5e48c; /* to be changed */
   transition: all 0.2s;
   transition-duration: 2ms;
   cursor: url(cursor.png), none;
@@ -158,7 +158,7 @@ footer {
 .footer-bottom center {
   padding: 5px;
   font-size: 0.9375rem;
-  background: #1a759f;
+  background: #1a759f; /* to be changed */
   cursor: url(cursor.png), none;
 }
 
@@ -273,7 +273,7 @@ footer {
     overflow-y: auto;
     overflow-x: hidden;
     visibility: hidden;
-    background-color: black;
+    background-color: black; /* to be changed */ /* same as line 10 */
     transition: visibility 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
   }
   .navbar-collapse.show {
@@ -284,7 +284,7 @@ footer {
   h4 {
     font-family: "Comfortaa", monospace;
     font-size: 1.5em;
-    color: #d9ed92;
+    color: #d9ed92; 
     text-align: left;
     white-space: nowrap;
     margin-top: 10px;
@@ -302,11 +302,11 @@ footer {
   }
 
   .navbar-nav .nav-link {
-    color: #008785;
+    color: #008785; 
     cursor: url(cursor.png), none;
   }
   .navbar-nav .nav-link:hover {
-    color: #99d98c;
+    color: #99d98c; /* to be changed */ /* same as line 109 */
     cursor: url(cursor.png), none;
   }
 
