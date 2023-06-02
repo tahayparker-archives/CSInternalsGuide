@@ -64,7 +64,8 @@ li {
 }
 
 strong {
-  color: #b5e48c; /* to be changed */
+  color: #b5e48c; /* to be changed */ /* change it to something within the red family (red, orange, pink, purple, etc) 
+                                          as it is supposed to be a warning. */
   font-weight: 700;
   overflow-wrap: break-word;
   word-wrap: break-word;
