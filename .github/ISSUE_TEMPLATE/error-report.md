@@ -1,7 +1,7 @@
 ---
 name: Error Report
 about: Create a report to point out errors
-title: "[ERR]"
+title: "[ERR] 'Replace this text'"
 labels: ''
 assignees: ''
 
