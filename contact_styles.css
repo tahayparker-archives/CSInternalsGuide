@@ -5,6 +5,7 @@
 
 html {
   cursor: url(assets/css/cursor.png), none;
+  scroll-behavior: smooth;
 }
 
 body {
