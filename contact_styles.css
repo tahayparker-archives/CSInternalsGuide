@@ -3,6 +3,10 @@
   src: url(fonts/Alexana\ Neue.ttf);
 }
 
+html {
+  cursor: url(assets/css/cursor.png), none;
+}
+
 body {
   margin: 0;
   padding: -5px;
