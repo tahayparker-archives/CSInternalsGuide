@@ -12,6 +12,7 @@ body {
   align-items: center;
   flex-direction: column;
   width: 100vw;
+  cursor: url(assets/css/cursor.png), none;
 }
 
 .container {
