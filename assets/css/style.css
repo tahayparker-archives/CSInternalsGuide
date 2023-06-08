@@ -258,7 +258,7 @@ footer {
   transform: rotate(45deg);
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 992px) {
  
   .offcanvas-header {
     display: block !important; 
@@ -269,6 +269,7 @@ footer {
   }
 
   .navbar-collapse {
+    display: list-item !important;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -279,7 +280,7 @@ footer {
     padding-left: 1rem;
     overflow-y: hidden;
     overflow-x: hidden;
-    visibility: visible;
+    visibility: hidden;
     background-color: black; /* to be changed */ /* same as line 10 */
     transition: visibility 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.2s cubic-bezier(0.39, 0.58, 0.57, 1);
   }
@@ -287,8 +288,6 @@ footer {
   .navbar-collapse.show {
     visibility: visible;
     transform: translateX(-100%);
-    position: fixed;
-    overflow-y: hidden;
   }
 
   .fixed-position {
@@ -368,6 +367,7 @@ footer {
     display: none;
   }
 }
+
 
 /*
 @media (min-width: 1151px) {
