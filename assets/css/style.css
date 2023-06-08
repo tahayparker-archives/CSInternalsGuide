@@ -267,12 +267,7 @@ footer {
     display: block !important; 
   }
 
-  .navbar-toggler {
-    display: block !important;
-  }
-
   .navbar-collapse {
-    display: list-item !important;
     position: fixed;
     top: 0;
     bottom: 0;
