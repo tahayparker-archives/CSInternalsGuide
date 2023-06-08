@@ -8,6 +8,9 @@ html {
 body {
   font-family: "Comfortaa", monospace;
   background: #0f2f46; /* to be changed */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   cursor: url(cursor.png), none;
 }
 
