@@ -258,9 +258,14 @@ footer {
   transform: rotate(45deg);
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 1150px) {
+ 
   .offcanvas-header {
-    display: block;
+    display: block !important; 
+  }
+
+  .navbar-toggler {
+    display: block !important;
   }
 
   .navbar-collapse {
@@ -269,17 +274,29 @@ footer {
     bottom: 0;
     left: 100%;
     width: 100%;
+    height: 100%;
     padding-right: 1rem;
     padding-left: 1rem;
-    overflow-y: auto;
+    overflow-y: hidden;
     overflow-x: hidden;
-    visibility: hidden;
+    visibility: visible;
     background-color: black; /* to be changed */ /* same as line 10 */
-    transition: visibility 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
+    transition: visibility 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.2s cubic-bezier(0.39, 0.58, 0.57, 1);
   }
+
   .navbar-collapse.show {
     visibility: visible;
     transform: translateX(-100%);
+    position: fixed;
+    overflow-y: hidden;
+  }
+
+  .fixed-position {
+    position: fixed;
+  }
+
+  .lock-scroll {
+    overflow: hidden;
   }
 
   h4 {
@@ -352,7 +369,8 @@ footer {
   }
 }
 
-@media (min-width: 993px) {
+/*
+@media (min-width: 1151px) {
   banner {
     bottom: 0;
     width: 100%;
@@ -384,3 +402,5 @@ footer {
     cursor: url(cursor.png), none;
   }
 }
+*/
+
