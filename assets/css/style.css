@@ -67,7 +67,7 @@ li {
 }
 
 strong {
-  color: #e4a18c; /* to be changed */ /* change it to something within the red family (red, orange, pink, purple, etc) 
+  color: #e07454; /* to be changed */ /* change it to something within the red family (red, orange, pink, purple, etc) 
                                           as it is supposed to be a warning. */
   font-weight: 700;
   overflow-wrap: break-word;
@@ -227,13 +227,13 @@ footer {
 
 /* On mouse-over, add a grey background color */
 .checklist:hover input ~ .checkmark {
-  background-color: #52b69a;
+  background-color: #90bbaf;
   cursor: url(cursor.png), none;
 }
 
 /* When the checkbox is checked, add a blue background */
 .checklist input:checked ~ .checkmark {
-  background-color: #19ae2d;
+  background-color: #1989ae;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -279,7 +279,7 @@ footer {
     overflow-y: hidden;
     overflow-x: hidden;
     visibility: hidden;
-    background-color: black; /* to be changed */ /* same as line 10 */
+    background-color: #0f2f46; /* to be changed */ /* same as line 10 */
     transition: visibility 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.2s cubic-bezier(0.39, 0.58, 0.57, 1);
   }
 
@@ -321,7 +321,7 @@ footer {
     cursor: url(cursor.png), none;
   }
   .navbar-nav .nav-link:hover {
-    color: #99d98c; /* to be changed */ /* same as line 109 */
+    color: #b5e48c; /* to be changed */ /* same as line 109 */
     cursor: url(cursor.png), none;
   }
 
