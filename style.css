@@ -377,7 +377,7 @@ footer {
   align-items: center;
   flex-direction: column;
   width: 100vw;
-  cursor: url(assets/css/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 #contactcontainer {
@@ -387,7 +387,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  cursor: url(assets/css/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 h1 {
@@ -396,7 +396,7 @@ h1 {
   font-weight: 700;
   margin-bottom: 20px;
   color: #3acb95;
-  cursor: url(assets/css/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 #contact-title {
@@ -405,20 +405,20 @@ h1 {
   font-weight: 700;
   margin-bottom: -10px;
   margin-top: -15px;
-  cursor: url(assets/css/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 #contact-href {
   color: rgb(240, 240, 240);
   font-weight: 400;
   text-decoration: none;
-  cursor: url(assets/css/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 #link-text {
   font-family: "Alexana Neue", cursive;
   font-size: 1.15em;
-  cursor: url(assets/css/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .tile {
@@ -428,13 +428,13 @@ h1 {
   border-radius: 17px;
   display: flex;
   justify-content: space-between;
-  cursor: url(assets/css/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .tile:hover {
   transition: cubic-bezier(0.07, 1.41, 0.82, 1.41) 0.2s;
   transform: scale(1.02);
-  cursor: url(assets/css/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .tile-share-button {
@@ -443,20 +443,20 @@ h1 {
   height: 40px;
   border-radius: 20px;
   background-color: rgb(52, 52, 52);
-  cursor: url(assets/css/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .tile-share-button svg {
   margin-left: 12px;
   margin-top: 10px;
-  cursor: url(assets/css/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .material-symbols-outlined {
   margin: 9px;
   width: 40px;
   height: 40px;
-  cursor: url(assets/css/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .image-container {
@@ -464,12 +464,12 @@ h1 {
   width: 75px;
   border-radius: 37.5px;
   overflow: hidden;
-  cursor: url(assets/css/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .image-container img {
   height: 100%;
-  cursor: url(assets/css/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .icon {
@@ -477,12 +477,12 @@ h1 {
   margin-left: 6px;
   width: 44px;
   height: 44px;
-  cursor: url(assets/css/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
 
 .bi {
   margin-top: 55px;
   margin-left: 5px;
   font-size: 35px;
-  cursor: url(assets/css/cursor.png), none;
+  cursor: url(cursor.png), none;
 }
