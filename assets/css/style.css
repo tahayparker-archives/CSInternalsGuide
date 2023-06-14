@@ -7,7 +7,7 @@ html {
 
 body {
   font-family: "Comfortaa", monospace;
-  background: #00080d; /* to be changed */
+  background: #121212; /* to be changed */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -67,7 +67,7 @@ li {
 }
 
 strong {
-  color: #e07454; /* to be changed */ /* change it to something within the red family (red, orange, pink, purple, etc) 
+  color: #bf4d2a; /* to be changed */ /* change it to something within the red family (red, orange, pink, purple, etc) 
                                           as it is supposed to be a warning. */
   font-weight: 700;
   overflow-wrap: break-word;
@@ -110,7 +110,7 @@ a:focus {
 
 .navbar-nav .nav-item .nav-link:hover {
   color: #b5e48c;
-  background-color: #23665b; /* to be changed */
+  background-color: #23665b;
   transition: all 0.2s;
   transition-duration: 2ms;
   cursor: url(cursor.png), none;
@@ -162,7 +162,7 @@ footer {
 .footer-bottom center {
   padding: 5px;
   font-size: 0.9375rem;
-  background:#0f3f3c; /* to be changed */
+  background:#0f3f3c;
   cursor: url(cursor.png), none;
 }
 
@@ -279,7 +279,7 @@ footer {
     overflow-y: hidden;
     overflow-x: hidden;
     visibility: hidden;
-    background-color: #0f2f46; /* to be changed */ /* same as line 10 */
+    background-color: #121212;
     transition: visibility 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.2s cubic-bezier(0.39, 0.58, 0.57, 1);
   }
 
