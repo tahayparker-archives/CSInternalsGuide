@@ -1,0 +1,12 @@
+CREATE DATABASE exam;
+USE exam;
+CREATE TABLE machinery(
+    M_ID INT PRIMARY KEY NOT NULL,
+    Machine_Name varchar(250) NOT NULL,
+    Price INT NOT NULL
+);
+
+INSERT INTO machinery VALUES(547, 'Swift', 100000);
+INSERT INTO machinery VALUES(245, 'Suntech', 178678);
+INSERT INTO machinery VALUES(136, 'Mayer & Cie', 60500);
+INSERT INTO machinery VALUES(651, 'Tex Machine', 15000);
